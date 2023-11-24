@@ -1,0 +1,10 @@
+image: gradle:7.3.3-jdk17-alpine
+
+stages:
+  test
+
+test:
+  stage: test
+  allow_failure: false
+  script:
+    - "echo"
